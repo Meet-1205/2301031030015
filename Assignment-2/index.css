@@ -1,0 +1,84 @@
+.frame-child,
+.login {
+  position: absolute;
+  left: calc(50% - 116.5px);
+}
+.frame-child {
+  top: 9px;
+  background-color: var(--color-black);
+  width: 233px;
+  height: 77px;
+}
+.login {
+  top: 11px;
+  display: inline-block;
+  width: 232px;
+  height: 75px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 94px;
+  left: 63px;
+  width: 259px;
+  height: 86px;
+  overflow: hidden;
+  font-size: var(--font-size-45xl);
+  color: var(--color-red-100);
+}
+.password,
+.username {
+  position: absolute;
+  top: 346px;
+  left: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 169px;
+  height: 48px;
+}
+.password {
+  top: 436px;
+}
+.iphone-14-15-pro-1-child,
+.iphone-14-15-pro-1-inner,
+.iphone-14-15-pro-1-item {
+  position: absolute;
+  top: 346px;
+  left: 192px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gainsboro);
+  width: 172px;
+  height: 48px;
+}
+.iphone-14-15-pro-1-inner,
+.iphone-14-15-pro-1-item {
+  top: 436px;
+}
+.iphone-14-15-pro-1-inner {
+  top: 578px;
+  left: 94px;
+  width: 184px;
+  height: 68px;
+  cursor: pointer;
+}
+.save {
+  position: absolute;
+  top: 582px;
+  left: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  height: 64px;
+}
+.iphone-14-15-pro-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 852px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

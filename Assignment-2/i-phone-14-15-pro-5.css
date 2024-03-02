@@ -1,0 +1,137 @@
+.first-frame-child {
+  height: 76px;
+  width: 393px;
+  position: relative;
+  background-color: var(--color-black);
+  display: none;
+}
+.ferrari {
+  height: 63px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.first-frame,
+.inner-frame {
+  position: absolute;
+  background-color: var(--color-black);
+}
+.first-frame {
+  top: 99px;
+  left: 0;
+  width: 393px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-11xs) 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.inner-frame {
+  top: 770px;
+  left: 262px;
+  width: 128px;
+  height: 63px;
+}
+.spiderferrarihp-1-icon {
+  width: 1px;
+  height: 4px;
+  position: relative;
+  object-fit: cover;
+}
+.spiderferrarihp-2-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 47px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ferrari-label {
+  position: absolute;
+  top: 208px;
+  left: 0;
+  width: 393px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.l-intro-1652473332-1-icon {
+  position: absolute;
+  top: 498px;
+  left: 0;
+  border-radius: var(--br-25xl);
+  width: 393px;
+  height: 227px;
+  object-fit: cover;
+}
+.second-frame-child {
+  height: 63px;
+  width: 247px;
+  position: relative;
+  background-color: var(--color-black);
+  display: none;
+}
+.continue3 {
+  height: 60px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-inter);
+  color: var(--color-red-200);
+  text-align: center;
+  z-index: 1;
+}
+.back2,
+.continue3,
+.second-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-frame {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-10xl) var(--padding-10xs) 30px;
+  background-color: var(--color-black);
+  flex: 1;
+  flex-direction: row;
+}
+.back2 {
+  height: 60px;
+  width: 122px;
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.continue-btn {
+  position: absolute;
+  top: 772px;
+  left: 6px;
+  width: 388px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 19px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-red-200);
+}
+.iphone-14-15-pro-5 {
+  width: 100%;
+  height: 852px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-red-300);
+  font-family: var(--font-inter);
+}

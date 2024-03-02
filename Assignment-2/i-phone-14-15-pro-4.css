@@ -1,0 +1,152 @@
+.rolls-royce-label-child {
+  height: 76px;
+  width: 393px;
+  position: relative;
+  background-color: var(--color-black);
+  display: none;
+}
+.rolls-royce,
+.rolls-royce-label {
+  display: flex;
+  justify-content: center;
+}
+.rolls-royce {
+  height: 63px;
+  flex: 1;
+  position: relative;
+  align-items: center;
+  z-index: 1;
+}
+.rolls-royce-label {
+  align-self: stretch;
+  background-color: var(--color-black);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-11xs) 0 var(--padding-2xs);
+}
+.tile-twin-bb-ghost-1-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 38px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.root-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xl);
+  gap: 33px 0;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-red-300);
+  font-family: var(--font-inter);
+}
+.rolls-royce-phantom-series-ii-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 55px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangle-pair {
+  height: 63px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-black);
+  cursor: pointer;
+}
+.continue1 {
+  height: 60px;
+  width: 188px;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-inter);
+  color: var(--color-red-200);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+  margin-left: -221px;
+}
+.frame-pair {
+  cursor: pointer;
+  border: 0;
+  padding: 0 33px 0 0;
+  background-color: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  min-width: 161px;
+}
+.back,
+.finweb {
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+}
+.finweb {
+  align-self: stretch;
+  background-color: var(--color-black);
+}
+.back {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  margin-left: -125px;
+}
+.frame-pair1 {
+  height: 63px;
+  width: 128px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.inner-frames {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 5px;
+}
+.frame-set,
+.inner-frames,
+.iphone-14-15-pro-4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-set {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+}
+.iphone-14-15-pro-4 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-80xl) 0 var(--padding-lgi);
+  box-sizing: border-box;
+  gap: 37px 0;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-red-200);
+  font-family: var(--font-inter);
+}
